@@ -41,8 +41,13 @@ A RESTful API built using **Node.js**, **Express**, and **MySQL** for managing e
 ├── routes/  
 ├── middlewares/  
 ├── migrations/  
+├── seeders/  
 ├── .env  
 ├── app.js  
+├── Dockerfile  
+├── docker-compose.yml  
+├── .gitignore  
+├── .dockerignore  
 ├── server.js  
 ├── package.json  
 └── README.md  
