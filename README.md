@@ -98,4 +98,10 @@ Authorization: Bearer <your_jwt_token>
 Content-Type: application/json  
 
 🧪 Testing  
-All routes are tested using Postman. You can import a collection or test manually using the routes and required headers.  
+All routes are tested using Postman. You can now simply run the below given docker command & can test api(s) on your own computer.   
+
+🐳 Docker Support  
+this Project is Dockerized using the included Dockerfile and docker-compose.yml.  
+Run with Docker:  
+  ```bash
+  docker-compose up --build
