@@ -56,7 +56,8 @@ A RESTful API built using **Node.js**, **Express**, and **MySQL** for managing e
    git clone https://github.com/your-username/event-booking-api.git  
    cd event-booking-api  
 2. **Install dependencies:**  
-   ```npm install  
+   ```bash
+   npm install  
 3. **Set up the .env file:**  
    ```MYSQL_PORT=(mysql_port[usually-3306])  
       DB_USER=(your_mysql_username)  
@@ -72,7 +73,8 @@ A RESTful API built using **Node.js**, **Express**, and **MySQL** for managing e
       Create a database named event_db  
       Sequelize will handle table creation automatically  
 6. **Run the server:**  
-   ```npm start
+   ```bash
+   npm start
 
 🔌 API Endpoints  
 
